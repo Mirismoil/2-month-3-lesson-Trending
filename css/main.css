@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/mulish-v12-latin-regular.woff2') format('woff2'),
+         url('../fonts/mulish-v12-latin-regular.woff') format('woff'); 
+  }
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/mulish-v12-latin-600.woff2') format('woff2'), 
+         url('../fonts/mulish-v12-latin-600.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/mulish-v12-latin-700.woff2') format('woff2'), 
+         url('../fonts/mulish-v12-latin-700.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/rubik-v20-latin-regular.woff2') format('woff2'), 
+         url('../fonts/rubik-v20-latin-regular.woff') format('woff');
+  }
+  *{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #eeeded;
+  }
+  .container{
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1170px;
+  }
+  .wrapper-top__box{
+    position: relative;
+    top: -561px;
+    left: 40px;
+  }
+  .top-box__img{
+    margin-bottom: 55px;
+  }
+  .top-box__title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #555555;
+  }
+  .top-box__text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #7AC751;
+  }
+  .top-box__link{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #757575;
+  }
+  .wrapper-box-text{
+    margin-bottom: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .box-trend__title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 45px;
+    color: #555555;
+  }
+  .box-trend__span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #7AC751;
+}
+.box-trend__sub-title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C2C2C2;
+}
+.box-card__started{
+    margin-left: 31px;
+}
+.section-card{
+  position: relative;
+}
+.box-card__started-hover{
+    display: none;
+    position: absolute;
+    right: -15px;
+    top: 60px;
+}
+.box-card__started:hover  .box-card__started-hover{
+    display: block;
+  }
+.wrapper-section__card{
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__started-img{
+    position: absolute;
+}
+.card-started__icon{
+    position: relative;
+    top: -290px;
+}
+.wrapper-box__logs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-card__logo1{
+    margin-left: 7px;
+}
+.wrapper-box__started{
+    margin: 0px 0px 8px 0px;
+
+}
+.card-started__span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.008em;
+    text-transform: uppercase;
+    color: rgba(117, 117, 117, 0.71);
+}
+.card-started__titles{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;   
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #555555;
+}
+.end-box__circle{
+  margin-bottom: 99px;
+}
+.end-box__circle{
+  text-align: center;
+}
+.end-box__circle1{
+  padding-right: 14px;
+}
+.box__offer-title{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 45px;  
+  text-transform: uppercase;
+  color: #555555;
+}
+.box__offer_img{
+  width: 580px;
+  position: absolute;
+}
+.section-box__offer{
+  margin-bottom: 120px;
+  width: 1200px;
+}
+.section-box__offer-right{
+  display: inline-block;
+  margin: 10px 10px ;
+  padding: 10px 20px;
+  position: relative;
+}
+.wrapper-box__all{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper-box__offer{
+  margin-right: 30px;
+  width: 580px;
+  height: 300px;
+}
+.wrapper-box__offer-right{
+  width: 227px;
+}
+.box__offer-right__title{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #555555;
+}
+.box_offer-right__text{
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #757575;
+}
+.box__offer__span1{
+  padding-right: 10px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #7AC751; 
+}
+.box__offer__span2{
+  padding-right: 19px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-decoration-line: line-through;
+  color: #CCCCCC;
+}
+.box__offer-right__links{
+  padding: 7px 10px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background: #7AC751;
+  border-radius: 2px;
+}
+.box-offer__List-title{
+  margin-left: -15px;
+  padding: 16px 16px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 50%;
+  list-style: none;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  background: #7AC751;
+}
+.box-offer__list{
+  padding: 0px 15px ;
+  display: inline;
+}
+.wrapper-box__list{
+  margin-top: 20px;
+  display: flex;
+}
+.box-products__title{
+  text-align: center;
+}
+.wrapper-box__started{
+  text-align: start;
+}
+.card-started__icon1{
+  position: relative;
+  top: -292px;
+  left: -111px;
+}
